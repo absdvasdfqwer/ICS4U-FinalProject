@@ -1,3 +1,4 @@
+//import gay
 import javafx.animation.*;
 import javafx.event.*;
 import javafx.scene.*;
@@ -10,10 +11,10 @@ import javafx.scene.text.*;
 import javafx.stage.*;
 
 /**
- * @version 1
- * @author Evan Zhang
+ * @version Gay
+ * @author Gay Zhang
  * Revision history:
- *  - May 13, 2019: Created ~Evan Zhang
+ *  - May 13, 2019: Created ~Gay Zhang
  */
 public class LoadingScreen extends BaseScene {
     public LoadingScreen(Game game) {
@@ -23,7 +24,7 @@ public class LoadingScreen extends BaseScene {
     public void initScene() {
         VBox root = new VBox();
 
-        Button btn = new Button("Next screen");
+        Button btn = new Button("EVANZHANGAY");
         btn.setMinWidth(SCREEN_WIDTH / 2);
         btn.setMinHeight(SCREEN_HEIGHT / 2);
         btn.setOnAction(event -> {
